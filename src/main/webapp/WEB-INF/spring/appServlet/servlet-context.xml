@@ -44,9 +44,8 @@
 		<beans:property name="mapperLocations">
 			<beans:list>
 				<beans:value>classpath:com/cafe24/specialpos/service/SposGoodsMapper.xml</beans:value>
-				<beans:value>classpath:com/cafe24/specialpos/service/SposMallMapper.xml</beans:value>
+				<beans:value>classpath:com/cafe24/specialpos/commons/SposMallMapper.xml</beans:value>
 				<beans:value>classpath:com/cafe24/specialpos/service/SposUserMapper.xml</beans:value>
-				
 			</beans:list>
 		</beans:property>
 	</beans:bean>
