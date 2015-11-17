@@ -1,4 +1,4 @@
-package com.cafe24.specialpos.domain;
+package com.specialpos.sales.domain;
 
 public class SposSalesDomain {
 

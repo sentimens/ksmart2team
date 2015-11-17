@@ -14,13 +14,13 @@ public class SposUserController {
 	private SposUserService sposUserService;
 	
 	//사원정보 입력폼 이동
-	@RequestMapping(value="/userInsert", method=RequestMethod.GET)
+	@RequestMapping(value="/insertUserForm", method=RequestMethod.GET)
 	public String insertUserForm(){
-		return null;
+		return "/user/user_insert";
 	}
 	
 	//사원정보 입력 처리
-	@RequestMapping(value="/userInsertService", method=RequestMethod.POST)
+	@RequestMapping(value="/insertUserService", method=RequestMethod.POST)
 	public String insertUser(SposUserDomain sposUserDomain){
 		return null;
 	}

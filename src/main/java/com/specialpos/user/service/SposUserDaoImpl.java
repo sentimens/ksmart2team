@@ -1,12 +1,14 @@
 package com.specialpos.user.service;
 
 import java.util.List;
-import java.util.Map;
+
+import org.springframework.stereotype.Repository;
 
 import com.specialpos.user.domain.SposUserDomain;
 
+@Repository
 public class SposUserDaoImpl implements SposUserDao{
-
+	
 	@Override
 	public int insertUser(SposUserDomain sposUserDomain) {
 		// TODO Auto-generated method stub
