@@ -16,13 +16,13 @@ public class SposMallController {
 	private SposMallService sposMallService;
 	
 //	Mall 입력폼으로 이동
-	@RequestMapping(value="/mall/insertMallForm",method=RequestMethod.GET)
-	public String insertMallForm(){
+	@RequestMapping(value="/mall/insertMall",method=RequestMethod.GET)
+	public String insertMall(){
 		return "/mall/mall_insert";
 	}
 //	Mall 입력데이터 DB에저장
-	@RequestMapping(value="/mall/insertGoodsService",method=RequestMethod.POST)
-	public String insertGoodsService(SposMallDomain sposMallDomain){
+	@RequestMapping(value="/mall/insertMall",method=RequestMethod.POST)
+	public String insertMall(SposMallDomain sposMallDomain){
 		sposMallService.insertMall(sposMallDomain);
 		return "redirect:/";
 	}	

@@ -19,8 +19,8 @@ public class SposMallServiceImpl implements SposMallService {
 	}
 
 	@Override
-	public SposMallDomain getGoodsForModify(String mall_code) {
-		sposMallDao.getGoodsForModify(mall_code);
+	public SposMallDomain getMallForModify(String mall_code) {
+		sposMallDao.getMallForModify(mall_code);
 		return null;
 	}
 
@@ -37,8 +37,8 @@ public class SposMallServiceImpl implements SposMallService {
 	}
 
 	@Override
-	public List<SposMallDomain> getGoodsList(String searchWord) {
-		sposMallDao.getGoodsList(searchWord);
+	public List<SposMallDomain> getMallList(String searchWord) {
+		sposMallDao.getMallList(searchWord);
 		return null;
 	}
 

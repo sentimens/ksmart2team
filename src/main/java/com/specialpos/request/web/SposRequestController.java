@@ -14,13 +14,13 @@ public class SposRequestController {
 	private SposRequestService sposRequestService;
 	
 	//본사요청사항 입력 폼 이동
-	@RequestMapping(value="/insertRequestForm", method=RequestMethod.GET)
+	@RequestMapping(value="/insertRequest", method=RequestMethod.GET)
 	public String insertRequest(){
 		return "/request/request_insert";
 	}
 	
 	//본사요청사항 입력처리
-	@RequestMapping(value="/insertRequestService", method=RequestMethod.POST)
+	@RequestMapping(value="/insertRequest", method=RequestMethod.POST)
 	public String insertRequest(SposRequestDomain sposRequestDomain){
 		return null;
 	}

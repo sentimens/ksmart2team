@@ -6,8 +6,8 @@ import com.specialpos.mall.domain.SposMallDomain;
 
 public interface SposMallService {
 	public int insertMall(SposMallDomain sposMallDomain);
-	public SposMallDomain getGoodsForModify(String mall_code);
+	public SposMallDomain getMallForModify(String mall_code);
 	public int modifyUser(SposMallDomain sposMallDomain);
 	public int deleteUser(SposMallDomain sposMallDomain);
-	public List<SposMallDomain> getGoodsList(String searchWord);
+	public List<SposMallDomain> getMallList(String searchWord);
 }

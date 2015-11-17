@@ -15,7 +15,7 @@ public class SposMallDaoImpl implements SposMallDao {
 	}
 
 	@Override
-	public SposMallDomain getGoodsForModify(String mall_code) {
+	public SposMallDomain getMallForModify(String mall_code) {
 		// TODO Auto-generated method stub
 		return null;
 	}
@@ -33,7 +33,7 @@ public class SposMallDaoImpl implements SposMallDao {
 	}
 
 	@Override
-	public List<SposMallDomain> getGoodsList(String searchWord) {
+	public List<SposMallDomain> getMallList(String searchWord) {
 		// TODO Auto-generated method stub
 		return null;
 	}

@@ -14,13 +14,13 @@ public class SposGoodsController {
 	private SposGoodsService sposGoodsService;
 
 //	Goods 입력폼으로 이동
-	@RequestMapping(value="/goods/insertGoodsForm",method=RequestMethod.GET)
-	public String insertGoodsForm(){
+	@RequestMapping(value="/goods/insertGoods",method=RequestMethod.GET)
+	public String insertGoods(){
 		return "/goods/goods_insert";
 	}
 //	Goods 입력데이터 DB에 저장
-	@RequestMapping(value="/goods/insertGoodsService",method=RequestMethod.POST)
-	public String insertGoodsService(SposGoodsDomain sposGoodsDomain){
+	@RequestMapping(value="/goods/insertGoods",method=RequestMethod.POST)
+	public String insertGoods(SposGoodsDomain sposGoodsDomain){
 		sposGoodsService.insertGoods(sposGoodsDomain);
 		return "redirect:/";
 	}
