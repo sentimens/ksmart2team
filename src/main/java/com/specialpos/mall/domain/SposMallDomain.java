@@ -1,97 +1,86 @@
 package com.specialpos.mall.domain;
 
 public class SposMallDomain {
-	private String mallCode;
-	private String mallAddr;
-	private String mallName;
-	private String mallPhone;
-	private String mallCeoName;
-	private String mallCeoPhone;
-	private String mallBizCode;
-	private String mallBizType;
-	private String mallBizStat;
-	private String mallBizClass;
-	private String mallClass;
-	private String mallBelong;
-	private int mallInvMoney;
+	private String mall_code;
+	private String mall_addr;
+	private String mall_name;
+	private String mall_phone;
+	private String mall_bizcode;
+	private String mall_biztype;
+	private String mall_bizstat;
+	private String mall_class;
+	private String mall_belong;
+	private int  mall_inventory;
+	private String mall_datetime;
 	
-	public String getMallCode() {
-		return mallCode;
+	
+	public String getMall_code() {
+		return mall_code;
 	}
-	public void setMallCode(String mallCode) {
-		this.mallCode = mallCode;
+	public void setMall_code(String mall_code) {
+		this.mall_code = mall_code;
 	}
-	public String getMallAddr() {
-		return mallAddr;
+	public String getMall_addr() {
+		return mall_addr;
 	}
-	public void setMallAddr(String mallAddr) {
-		this.mallAddr = mallAddr;
+	public void setMall_addr(String mall_addr) {
+		this.mall_addr = mall_addr;
 	}
-	public String getMallName() {
-		return mallName;
+	public String getMall_name() {
+		return mall_name;
 	}
-	public void setMallName(String mallName) {
-		this.mallName = mallName;
+	public void setMall_name(String mall_name) {
+		this.mall_name = mall_name;
 	}
-	public String getMallPhone() {
-		return mallPhone;
+	public String getMall_phone() {
+		return mall_phone;
 	}
-	public void setMallPhone(String mallPhone) {
-		this.mallPhone = mallPhone;
+	public void setMall_phone(String mall_phone) {
+		this.mall_phone = mall_phone;
 	}
-	public String getMallCeoName() {
-		return mallCeoName;
+	public String getMall_bizcode() {
+		return mall_bizcode;
 	}
-	public void setMallCeoName(String mallCeoName) {
-		this.mallCeoName = mallCeoName;
+	public void setMall_bizcode(String mall_bizcode) {
+		this.mall_bizcode = mall_bizcode;
 	}
-	public String getMallCeoPhone() {
-		return mallCeoPhone;
+	public String getMall_biztype() {
+		return mall_biztype;
 	}
-	public void setMallCeoPhone(String mallCeoPhone) {
-		this.mallCeoPhone = mallCeoPhone;
+	public void setMall_biztype(String mall_biztype) {
+		this.mall_biztype = mall_biztype;
 	}
-	public String getMallBizCode() {
-		return mallBizCode;
+	public String getMall_bizstat() {
+		return mall_bizstat;
 	}
-	public void setMallBizCode(String mallBizCode) {
-		this.mallBizCode = mallBizCode;
+	public void setMall_bizstat(String mall_bizstat) {
+		this.mall_bizstat = mall_bizstat;
 	}
-	public String getMallBizType() {
-		return mallBizType;
+	public String getMall_class() {
+		return mall_class;
 	}
-	public void setMallBizType(String mallBizType) {
-		this.mallBizType = mallBizType;
+	public void setMall_class(String mall_class) {
+		this.mall_class = mall_class;
 	}
-	public String getMallBizStat() {
-		return mallBizStat;
+	public String getMall_belong() {
+		return mall_belong;
 	}
-	public void setMallBizStat(String mallBizStat) {
-		this.mallBizStat = mallBizStat;
+	public void setMall_belong(String mall_belong) {
+		this.mall_belong = mall_belong;
 	}
-	public String getMallBizClass() {
-		return mallBizClass;
+	public int getMall_inventory() {
+		return mall_inventory;
 	}
-	public void setMallBizClass(String mallBizClass) {
-		this.mallBizClass = mallBizClass;
+	public void setMall_inventory(int mall_inventory) {
+		this.mall_inventory = mall_inventory;
 	}
-	public String getMallClass() {
-		return mallClass;
+	public String getMall_datetime() {
+		return mall_datetime;
 	}
-	public void setMallClass(String mallClass) {
-		this.mallClass = mallClass;
+	public void setMall_datetime(String mall_datetime) {
+		this.mall_datetime = mall_datetime;
 	}
-	public String getMallBelong() {
-		return mallBelong;
-	}
-	public void setMallBelong(String mallBelong) {
-		this.mallBelong = mallBelong;
-	}
-	public int getMallInvMoney() {
-		return mallInvMoney;
-	}
-	public void setMallInvMoney(int mallInvMoney) {
-		this.mallInvMoney = mallInvMoney;
-	}
+	
+	
 	
 }
