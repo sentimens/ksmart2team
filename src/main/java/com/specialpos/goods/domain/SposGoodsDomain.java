@@ -1,6 +1,6 @@
 package com.specialpos.goods.domain;
 
-public class SposGoods {
+public class SposGoodsDomain {
 	private String goodsBarcode;
 	private String goodsMaker;
 	private String goodsCate;

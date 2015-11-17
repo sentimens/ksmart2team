@@ -1,5 +1,5 @@
 package com.specialpos.cost.domain;
 
-public class SposCost {
+public class SposCostDoamin {
 
 }

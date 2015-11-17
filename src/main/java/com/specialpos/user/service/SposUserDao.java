@@ -1,5 +1,15 @@
 package com.specialpos.user.service;
 
-public interface SposUserDao {
+import java.util.List;
+import java.util.Map;
 
+import com.specialpos.user.domain.SposUserDomain;
+
+public interface SposUserDao {
+	public int insertUser(SposUserDomain sposUserDomain);
+	public SposUserDomain getUserForModify(String userId);
+	public int modifyUser(SposUserDomain sposUserDomain);
+	public int deleteUser(SposUserDomain sposUserDomain);
+	public List<SposUserDomain>getUserList(String searchWord);
+	
 }

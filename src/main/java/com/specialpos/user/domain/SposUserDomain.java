@@ -1,6 +1,6 @@
 package com.specialpos.user.domain;
 
-public class SposUser {
+public class SposUserDomain {
 	private String UserId;
 	private String mallCode;
 	private String userPw;
@@ -8,8 +8,7 @@ public class SposUser {
 	private String userPhone;
 	private String userEmail;
 	private String userJob;
-	private String userBelongTo;
-	private int userSal;
+	private String userDateTime;
 	
 	public String getUserId() {
 		return UserId;
@@ -53,17 +52,10 @@ public class SposUser {
 	public void setUserJob(String userJob) {
 		this.userJob = userJob;
 	}
-	public String getUserBelongTo() {
-		return userBelongTo;
+	public String getUserDateTime() {
+		return userDateTime;
 	}
-	public void setUserBelongTo(String userBelongTo) {
-		this.userBelongTo = userBelongTo;
+	public void setUserDateTime(String userDateTime) {
+		this.userDateTime = userDateTime;
 	}
-	public int getUserSal() {
-		return userSal;
-	}
-	public void setUserSal(int userSal) {
-		this.userSal = userSal;
-	}
-	
 }

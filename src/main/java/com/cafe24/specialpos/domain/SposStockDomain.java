@@ -1,5 +1,5 @@
 package com.cafe24.specialpos.domain;
 
-public class SposPattern {
+public class SposStockDomain {
 
 }

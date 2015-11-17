@@ -1,5 +1,5 @@
 package com.specialpos.request.domain;
 
-public class SposRequest {
+public class SposRequestDomain {
 
 }

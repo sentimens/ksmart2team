@@ -1,6 +1,6 @@
 package com.specialpos.mall.domain;
 
-public class SposMall {
+public class SposMallDomain {
 	private String mallCode;
 	private String mallAddr;
 	private String mallName;
