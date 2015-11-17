@@ -1,4 +1,4 @@
-package com.cafe24.specialpos.service;
+package com.specialpos.sales.service;
 
 public interface SposSalesDao {
 
