@@ -11,9 +11,7 @@ import com.specialpos.stock.service.SposStockService;
 @Controller
 public class SposStockController {
 
-	@Autowired
-	private SposStockService sposStockService;
-	
+
 	//재고 입력폼 이동
 	@RequestMapping(value="/insertStock", method=RequestMethod.GET)
 	public String insertStock(){

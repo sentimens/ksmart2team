@@ -13,8 +13,7 @@ import com.specialpos.mall.service.SposMallService;
 public class SposMallController {
 	
 	@Autowired
-	private SposMallService sposMallService;
-	
+	SposMallService sposMallService;
 //	Mall 입력폼으로 이동
 	@RequestMapping(value="/mall/insertMall",method=RequestMethod.GET)
 	public String insertMall(){
