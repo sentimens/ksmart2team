@@ -13,9 +13,8 @@ public class SposRequestServiceImpl implements SposRequestService{
 		private SposRequestDao sposRequestDao;
 	
 	@Override
-	public int insertRequest(SposRequest sposRequestDoamin) {
-		// TODO Auto-generated method stub
-		return 0;
+	public int insertRequest(SposRequest sposRequest) {
+		return sposRequestDao.insertRequest(sposRequest);
 	}
 
 	@Override

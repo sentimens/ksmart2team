@@ -24,6 +24,7 @@
 	</beans:bean>
 	
 	<context:component-scan base-package="com.specialpos" />
+	<context:component-scan base-package="com.cafe24.specialpos" />
 	
 	<!--  datasoruce -->
     <beans:bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource">
@@ -44,6 +45,7 @@
 		<beans:property name="mapperLocations">
 			<beans:list>
 				<beans:value>classpath:com/specialpos/goods/service/SposGoodsMapper.xml</beans:value>
+				<beans:value>classpath:com/specialpos/request/service/SposRequestMapper.xml</beans:value>
 			</beans:list>
 		</beans:property>
 	</beans:bean>

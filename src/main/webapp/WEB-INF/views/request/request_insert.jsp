@@ -7,6 +7,30 @@
 <title>Insert title here</title>
 </head>
 <body>
-
+	<form action="/insertRequest" method="post">
+		<table>
+			<tr>
+				<td>code :</td>
+				<td><input type = "text" name="request_code"></td>
+			</tr>
+			<tr>
+				<td>id :</td>
+				<td><input type = "text" name="user_id"></td>
+			</tr>
+			<tr>
+				<td>cate :</td>
+				<td><input type = "text" name="request_cate"></td>
+			</tr>
+			<tr>
+				<td>content :</td>
+				<td><input type = "text" name="request_content"></td>
+			</tr>
+			<tr>
+				<td>status :</td>
+				<td><input type = "text" name="request_status"></td>
+			</tr>
+		</table>
+		<input type="submit" value= "제출하기">
+	</form>
 </body>
 </html>
