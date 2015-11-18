@@ -5,7 +5,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import com.specialpos.request.domain.SposRequestDomain;
+import com.specialpos.request.domain.SposRequest;
 import com.specialpos.request.service.SposRequestService;
 
 @Controller
@@ -21,7 +21,7 @@ public class SposRequestController {
 	
 	//본사요청사항 입력처리
 	@RequestMapping(value="/insertRequest", method=RequestMethod.POST)
-	public String insertRequest(SposRequestDomain sposRequestDomain){
+	public String insertRequest(SposRequest sposRequestDomain){
 		return null;
 	}
 }

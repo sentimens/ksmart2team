@@ -5,7 +5,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import com.specialpos.user.domain.SposUserDomain;
+import com.specialpos.user.domain.SposUser;
 import com.specialpos.user.service.SposUserService;
 
 @Controller
@@ -21,7 +21,7 @@ public class SposUserController {
 	
 	//사원정보 입력 처리
 	@RequestMapping(value="/insertUser", method=RequestMethod.POST)
-	public String insertUser(SposUserDomain sposUserDomain){
+	public String insertUser(SposUser sposUserDomain){
 		return null;
 	}
 }

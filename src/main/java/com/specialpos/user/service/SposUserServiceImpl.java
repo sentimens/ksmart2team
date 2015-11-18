@@ -5,7 +5,7 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.specialpos.user.domain.SposUserDomain;
+import com.specialpos.user.domain.SposUser;
 
 @Service
 public class SposUserServiceImpl implements SposUserService{
@@ -13,13 +13,13 @@ public class SposUserServiceImpl implements SposUserService{
 		private SposUserDao sposUserDao;
 
 	@Override
-	public int insertUser(SposUserDomain sposUserDoamin) {
+	public int insertUser(SposUser sposUserDoamin) {
 		// TODO Auto-generated method stub
 		return 0;
 	}
 
 	@Override
-	public SposUserDomain getUserForModify(String userId) {
+	public SposUser getUserForModify(String userId) {
 		// TODO Auto-generated method stub
 		return null;
 	}
@@ -37,7 +37,7 @@ public class SposUserServiceImpl implements SposUserService{
 	}
 
 	@Override
-	public List<SposUserDomain> getUserList(String searchWord) {
+	public List<SposUser> getUserList(String searchWord) {
 		// TODO Auto-generated method stub
 		return null;
 	}

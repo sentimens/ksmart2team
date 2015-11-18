@@ -4,37 +4,37 @@ import java.util.List;
 
 import org.springframework.stereotype.Repository;
 
-import com.specialpos.user.domain.SposUserDomain;
+import com.specialpos.user.domain.SposUser;
 
 @Repository
 public class SposUserDaoImpl implements SposUserDao{
 	
 	@Override
-	public int insertUser(SposUserDomain sposUserDomain) {
+	public int insertUser(SposUser sposUserDomain) {
 		// TODO Auto-generated method stub
 		return 0;
 	}
 
 	@Override
-	public SposUserDomain getUserForModify(String userId) {
+	public SposUser getUserForModify(String userId) {
 		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
-	public int modifyUser(SposUserDomain sposUserDomain) {
+	public int modifyUser(SposUser sposUserDomain) {
 		// TODO Auto-generated method stub
 		return 0;
 	}
 
 	@Override
-	public int deleteUser(SposUserDomain sposUserDomain) {
+	public int deleteUser(SposUser sposUserDomain) {
 		// TODO Auto-generated method stub
 		return 0;
 	}
 
 	@Override
-	public List<SposUserDomain> getUserList(String searchWord) {
+	public List<SposUser> getUserList(String searchWord) {
 		// TODO Auto-generated method stub
 		return null;
 	}

@@ -4,36 +4,36 @@ import java.util.List;
 
 import org.springframework.stereotype.Repository;
 
-import com.specialpos.mall.domain.SposMallDomain;
+import com.specialpos.mall.domain.SposMall;
 @Repository
 public class SposMallDaoImpl implements SposMallDao {
 
 	@Override
-	public int insertMall(SposMallDomain sposMallDomain) {
+	public int insertMall(SposMall sposMallDomain) {
 		// TODO Auto-generated method stub
 		return 0;
 	}
 
 	@Override
-	public SposMallDomain getMallForModify(String mall_code) {
+	public SposMall getMallForModify(String mall_code) {
 		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
-	public int modifyUser(SposMallDomain sposMallDomain) {
+	public int modifyUser(SposMall sposMallDomain) {
 		// TODO Auto-generated method stub
 		return 0;
 	}
 
 	@Override
-	public int deleteUser(SposMallDomain sposMallDomain) {
+	public int deleteUser(SposMall sposMallDomain) {
 		// TODO Auto-generated method stub
 		return 0;
 	}
 
 	@Override
-	public List<SposMallDomain> getMallList(String searchWord) {
+	public List<SposMall> getMallList(String searchWord) {
 		// TODO Auto-generated method stub
 		return null;
 	}

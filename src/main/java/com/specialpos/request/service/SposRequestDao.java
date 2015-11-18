@@ -2,12 +2,12 @@ package com.specialpos.request.service;
 
 import java.util.List;
 
-import com.specialpos.request.domain.SposRequestDomain;
+import com.specialpos.request.domain.SposRequest;
 
 public interface SposRequestDao {
-	public int insertRequest(SposRequestDomain sposRequestDomain);
-	public SposRequestDomain getRequestForModify(String requestCode);
-	public int modifyRequest(SposRequestDomain sposRequestDomain);
-	public int deleteRequest(SposRequestDomain sposRequestDomain);
-	public List<SposRequestDomain>getRequestList(String searchWord);
+	public int insertRequest(SposRequest sposRequestDomain);
+	public SposRequest getRequestForModify(String requestCode);
+	public int modifyRequest(SposRequest sposRequestDomain);
+	public int deleteRequest(SposRequest sposRequestDomain);
+	public List<SposRequest>getRequestList(String searchWord);
 }

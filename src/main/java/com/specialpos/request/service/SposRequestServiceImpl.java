@@ -5,7 +5,7 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.specialpos.request.domain.SposRequestDomain;
+import com.specialpos.request.domain.SposRequest;
 
 @Service
 public class SposRequestServiceImpl implements SposRequestService{
@@ -13,13 +13,13 @@ public class SposRequestServiceImpl implements SposRequestService{
 		private SposRequestDao sposRequestDao;
 	
 	@Override
-	public int insertRequest(SposRequestDomain sposRequestDoamin) {
+	public int insertRequest(SposRequest sposRequestDoamin) {
 		// TODO Auto-generated method stub
 		return 0;
 	}
 
 	@Override
-	public SposRequestDomain getRequestForModify(String requestCode) {
+	public SposRequest getRequestForModify(String requestCode) {
 		// TODO Auto-generated method stub
 		return null;
 	}
@@ -37,7 +37,7 @@ public class SposRequestServiceImpl implements SposRequestService{
 	}
 
 	@Override
-	public List<SposRequestDomain> getReuqestList(String searchWord) {
+	public List<SposRequest> getReuqestList(String searchWord) {
 		// TODO Auto-generated method stub
 		return null;
 	}
