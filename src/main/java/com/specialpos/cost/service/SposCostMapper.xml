@@ -1,5 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.cafe24.specialpos.mapper">
-
+<mapper namespace="com.specialpos.cost">
+<insert id="insertCost" parameterType="com.specialpos.cost.domain.SposCost">
+	INSERT INTO  
+	SPOS_COST(
+		COST_CODE,
+		GOODS_BARCODE,
+		USER_ID,
+		COST_UNITCOST,
+		COST_EXPPRICE,
+		COST_SALEPRICE,
+		COST_SALERATE,
+		COST_REALPRICE,
+		COST_NOTE
+		)
+	VALUES(
+		#{cost_code},
+		#{goods_barcode},
+		#{user_id},
+		#{cost_unitcost},
+		#{cost_expprice},
+		#{cost_saleprice},
+		#{cost_salerate},
+		#{cost_realprice},
+		#{cost_note}
+	)
+</insert>
 </mapper>

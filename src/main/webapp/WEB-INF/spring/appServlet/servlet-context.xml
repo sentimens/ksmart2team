@@ -44,10 +44,21 @@
 		<beans:property name="dataSource" ref="dataSource" />
 		<beans:property name="mapperLocations">
 			<beans:list>
+				<beans:value>classpath:com/specialpos/blueprint/service/SposBluePrintMapper.xml</beans:value>
+				<beans:value>classpath:com/specialpos/buy/service/SposBuyMapper.xml</beans:value>
+				<beans:value>classpath:com/specialpos/cost/service/SposCostMapper.xml</beans:value>
 				<beans:value>classpath:com/specialpos/goods/service/SposGoodsMapper.xml</beans:value>
-				<beans:value>classpath:com/specialpos/request/service/SposRequestMapper.xml</beans:value>
-				<beans:value>classpath:com/specialpos/user/service/SposUserMapper.xml</beans:value>
+				<beans:value>classpath:com/specialpos/loss/service/SposLossMapper.xml</beans:value>
 				<beans:value>classpath:com/specialpos/mall/service/SposMallMapper.xml</beans:value>
+				<beans:value>classpath:com/specialpos/pattern/service/SposPatternMapper.xml</beans:value>
+				<beans:value>classpath:com/specialpos/payback/service/SposPaybackMapper.xml</beans:value>
+				<beans:value>classpath:com/specialpos/request/service/SposRequestMapper.xml</beans:value>
+				<beans:value>classpath:com/specialpos/sales/service/SposSalesMapper.xml</beans:value>
+				<beans:value>classpath:com/specialpos/salesplan/service/SposSalesplanMapper.xml</beans:value>
+				<beans:value>classpath:com/specialpos/sell/service/SposSellMapper.xml</beans:value>
+				<beans:value>classpath:com/specialpos/showcase/service/SposShowcaseMapper.xml</beans:value>
+				<beans:value>classpath:com/specialpos/stock/service/SposStockMapper.xml</beans:value>
+				<beans:value>classpath:com/specialpos/user/service/SposUserMapper.xml</beans:value>
 			</beans:list>
 		</beans:property>
 	</beans:bean>

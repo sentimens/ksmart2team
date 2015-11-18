@@ -7,12 +7,19 @@ public class SposCost {
 	private String goods_barcode;
 //	아이디
 	private String user_id;
+//	매입단가
 	private int cost_unitcost;
+//	예상판매단가
 	private int cost_expprice;
+//	할인단가
 	private int cost_saleprice;
+//	할인율
 	private int cost_salerate;
-	private int realprice;
+//	실제판매금액
+	private int cost_realprice;
+//	변경된 시점의 시간 (입력은 없고 select할때만 들어감.)
 	private String cost_datetime;
+//	단가비고(할인내용등)
 	private String cost_note;
 	
 	
@@ -58,11 +65,11 @@ public class SposCost {
 	public void setCost_salerate(int cost_salerate) {
 		this.cost_salerate = cost_salerate;
 	}
-	public int getRealprice() {
-		return realprice;
+	public int getCost_realprice() {
+		return cost_realprice;
 	}
-	public void setRealprice(int realprice) {
-		this.realprice = realprice;
+	public void setCost_realprice(int cost_realprice) {
+		this.cost_realprice = cost_realprice;
 	}
 	public String getCost_datetime() {
 		return cost_datetime;
@@ -78,4 +85,6 @@ public class SposCost {
 	}
 	
 	
+	
+
 }
