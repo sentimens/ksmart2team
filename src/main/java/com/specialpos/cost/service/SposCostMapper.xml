@@ -26,4 +26,21 @@
 		#{cost_note}
 	)
 </insert>
+<select id="getUserForModify" parameterType="String" resultType="com.specialpos.cost.domain.SposCost">
+SELECT 
+	cost_code,
+	goods_barcode,
+	user_id,
+	cost_unitcost,
+	cost_expprice,
+	cost_saleprice,
+	cost_salerate,
+	cost_realprice,
+	cost_datetime,
+	cost_note
+FROM 
+	spos_cost
+WHERE 
+	cost_code like CONCAT('%',#{value},'%')
+</select>
 </mapper>

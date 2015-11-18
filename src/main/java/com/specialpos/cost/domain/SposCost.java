@@ -1,25 +1,15 @@
 package com.specialpos.cost.domain;
 
 public class SposCost {
-//	단가관리번호
 	private String cost_code;
-//	품목바코드번호
 	private String goods_barcode;
-//	아이디
 	private String user_id;
-//	매입단가
 	private int cost_unitcost;
-//	예상판매단가
 	private int cost_expprice;
-//	할인단가
 	private int cost_saleprice;
-//	할인율
 	private int cost_salerate;
-//	실제판매금액
 	private int cost_realprice;
-//	변경된 시점의 시간 (입력은 없고 select할때만 들어감.)
 	private String cost_datetime;
-//	단가비고(할인내용등)
 	private String cost_note;
 	
 	
