@@ -21,7 +21,8 @@ public class SposUserController {
 	
 	//사원정보 입력 처리
 	@RequestMapping(value="/insertUser", method=RequestMethod.POST)
-	public String insertUser(SposUser sposUserDomain){
-		return null;
+	public String insertUser(SposUser sposUser){
+		sposUserService.insertUser(sposUser);
+		return "redirect:/";
 	}
 }

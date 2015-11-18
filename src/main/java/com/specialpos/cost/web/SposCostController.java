@@ -10,8 +10,7 @@ import com.specialpos.cost.service.SposCostService;
 
 @Controller
 public class SposCostController {
-	@Autowired
-	private SposCostService sposCostService;
+
 	
 	//단가정보 입력폼 이동
 	@RequestMapping(value="/insertCost", method=RequestMethod.GET)

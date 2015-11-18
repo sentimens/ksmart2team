@@ -13,9 +13,8 @@ public class SposUserServiceImpl implements SposUserService{
 		private SposUserDao sposUserDao;
 
 	@Override
-	public int insertUser(SposUser sposUserDoamin) {
-		// TODO Auto-generated method stub
-		return 0;
+	public int insertUser(SposUser sposUser) {
+		return sposUserDao.insertUser(sposUser);
 	}
 
 	@Override
