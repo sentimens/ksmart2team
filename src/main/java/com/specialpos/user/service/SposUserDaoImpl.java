@@ -11,7 +11,7 @@ import com.specialpos.user.domain.SposUser;
 @Repository
 public class SposUserDaoImpl implements SposUserDao{
 	
-	private final String NS = "com.specialpos.request";
+	private final String NS = "com.specialpos.user";
     @Autowired 
     private SqlSessionTemplate sqlSession;	
 

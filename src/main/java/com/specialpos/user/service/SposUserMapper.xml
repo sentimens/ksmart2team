@@ -13,20 +13,11 @@
 			USER_JOB)
 		VALUES
 		(#{user_id},
-		#{mall_code}
+		#{mall_code},
 		#{user_pw},
 		#{user_name},
 		#{user_phone},
 		#{user_email},
 		#{user_job})
 	</insert>
-	
-	<delete id="" parameterType="">
-	</delete>
-	
-	<update id="" parameterType="">
-	</update>
-	
-	<select id="" parameterType="" resultType="">
-	</select>
 </mapper>

@@ -10,7 +10,7 @@ import com.specialpos.request.domain.SposRequest;
 @Service
 public class SposRequestServiceImpl implements SposRequestService{
 	@Autowired
-		private SposRequestDao sposRequestDao;
+	private SposRequestDao sposRequestDao;
 	
 	@Override
 	public int insertRequest(SposRequest sposRequest) {

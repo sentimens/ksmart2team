@@ -12,7 +12,8 @@ import com.specialpos.request.domain.SposRequest;
 public class SposRequestDaoImpl implements SposRequestDao{
 
 	private final String NS = "com.specialpos.request";
-    @Autowired 
+	
+    @Autowired  
     private SqlSessionTemplate sqlSession;
 	
 	@Override

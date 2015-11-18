@@ -29,9 +29,9 @@
 	<!--  datasoruce -->
     <beans:bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource">
         <beans:property name="driverClassName" value="com.mysql.jdbc.Driver" />
-        <beans:property name="url" value="jdbc:mysql://specialpos.cafe24.com:3306/specialpos" />
-        <beans:property name="username" value="specialpos" />
-        <beans:property name="password" value="paink1ller" />  
+        <beans:property name="url" value="jdbc:mysql://localhost:3306/specialpos" />
+        <beans:property name="username" value="root" />
+        <beans:property name="password" value="java0000" />  
     </beans:bean>
    
     <!-- transaction manager -->    
@@ -46,6 +46,8 @@
 			<beans:list>
 				<beans:value>classpath:com/specialpos/goods/service/SposGoodsMapper.xml</beans:value>
 				<beans:value>classpath:com/specialpos/request/service/SposRequestMapper.xml</beans:value>
+				<beans:value>classpath:com/specialpos/user/service/SposUserMapper.xml</beans:value>
+				<beans:value>classpath:com/specialpos/mall/service/SposMallMapper.xml</beans:value>
 			</beans:list>
 		</beans:property>
 	</beans:bean>

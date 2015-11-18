@@ -22,7 +22,10 @@ public class SposUserController {
 	//사원정보 입력 처리
 	@RequestMapping(value="/insertUser", method=RequestMethod.POST)
 	public String insertUser(SposUser sposUser){
-		sposUserService.insertUser(sposUser);
-		return "redirect:/";
+		if(sposUserService.insertUser(sposUser) != 0){
+			return "redirect:/";
+		}else{
+			return "/user/user_insert";
+		}
 	}
 }
