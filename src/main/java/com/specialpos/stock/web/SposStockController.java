@@ -25,4 +25,17 @@ public class SposStockController {
 	public String insertStock(SposStock sposStock){
 		return null;
 	}
+	
+	//재고 수정폼 이동
+	@RequestMapping(value="/modifyStock", method=RequestMethod.GET)
+	public String modifyStock(){
+		return "/stock/stock_modify";
+	}
+	
+	//재고 수정 처리
+	@RequestMapping(value="/modifyStock", method=RequestMethod.POST)
+	public String modifyStock(SposStock sposStock){
+		return null;
+	}
+	
 }
